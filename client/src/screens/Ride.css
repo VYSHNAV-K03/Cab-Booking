@@ -1,0 +1,54 @@
+.ride-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.ride-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ride-table th,
+.ride-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.ride-table th {
+  background-color: #f4f4f4;
+}
+
+.start-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start-btn:hover {
+  background-color: #218838;
+}
+
+.end-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.end-btn:hover {
+  background-color: #c82333;
+}
